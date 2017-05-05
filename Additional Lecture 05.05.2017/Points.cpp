@@ -54,7 +54,7 @@ public:
 		z=0;
 	}
 	
-	Point3D<T>(int _x, int _y, int _z) : Point<T>(_x, _y) 
+	Point3D<T>(T _x, T _y, T _z) : Point<T>(_x, _y) 
 	{
 		z=_z;
 	}
